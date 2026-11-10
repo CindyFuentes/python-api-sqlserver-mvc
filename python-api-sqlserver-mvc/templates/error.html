@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block heading %}Error de conexión{% endblock %}{% block body %}<div class="card form"><p>No se pudo conectar con SQL Server:</p><pre>{{error}}</pre><p>Revisa el archivo .env, el nombre de la instancia y el controlador ODBC.</p></div>{% endblock %}
